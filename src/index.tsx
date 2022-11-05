@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
+  <div>
     <Hello/>
     <Name/>
     <Message/>
@@ -24,7 +24,7 @@ root.render(
     <StateCounter initialValue={0}/>
     <ReducerCounter initialValue={0}/>
     <MemoFizzBuzz/>
-  </React.StrictMode>
+  </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
