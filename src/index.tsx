@@ -13,6 +13,7 @@ import MemoFizzBuzz from './components/Parent'
 import CallbackButton from './components/UseCallbackSample'
 import UseMemoSample from './components/UseMemoSample';
 import Clock from './components/Clock';
+import UseContextSample from './components/UseContextSample'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -30,6 +31,7 @@ root.render(
     <CallbackButton/>
     <UseMemoSample/>
     <Clock/>
+    <UseContextSample/>
   </div>
 );
 
