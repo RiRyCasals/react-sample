@@ -9,6 +9,7 @@ import Parent from './components/ContainerSample';
 import Page from './components/ContextSample';
 import StateCounter from './components/UseStateSample';
 import ReducerCounter from './components/UseReducerSample';
+import MemoFizzBuzz from './components/Parent'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,6 +23,7 @@ root.render(
     <Page/>
     <StateCounter initialValue={0}/>
     <ReducerCounter initialValue={0}/>
+    <MemoFizzBuzz/>
   </React.StrictMode>
 );
 
