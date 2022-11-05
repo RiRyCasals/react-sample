@@ -11,6 +11,7 @@ import StateCounter from './components/UseStateSample';
 import ReducerCounter from './components/UseReducerSample';
 import MemoFizzBuzz from './components/Parent'
 import CallbackButton from './components/UseCallbackSample'
+import UseMemoSample from './components/UseMemoSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -26,6 +27,7 @@ root.render(
     <ReducerCounter initialValue={0}/>
     <MemoFizzBuzz/>
     <CallbackButton/>
+    <UseMemoSample/>
   </div>
 );
 
