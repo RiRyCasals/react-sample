@@ -7,7 +7,8 @@ import Name from './components/Name';
 import Message from './components/Message';
 import Parent from './components/ContainerSample';
 import Page from './components/ContextSample';
-import Counter from './components/UseStateSample';
+import StateCounter from './components/UseStateSample';
+import ReducerCounter from './components/UseReducerSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,7 +20,8 @@ root.render(
     <Message/>
     <Parent/>
     <Page/>
-    <Counter initialValue={0}/>
+    <StateCounter initialValue={0}/>
+    <ReducerCounter initialValue={0}/>
   </React.StrictMode>
 );
 
