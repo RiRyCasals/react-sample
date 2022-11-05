@@ -12,6 +12,7 @@ import ReducerCounter from './components/UseReducerSample';
 import MemoFizzBuzz from './components/Parent'
 import CallbackButton from './components/UseCallbackSample'
 import UseMemoSample from './components/UseMemoSample';
+import Clock from './components/Clock';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -28,6 +29,7 @@ root.render(
     <MemoFizzBuzz/>
     <CallbackButton/>
     <UseMemoSample/>
+    <Clock/>
   </div>
 );
 
