@@ -15,6 +15,7 @@ import UseMemoSample from './components/UseMemoSample';
 import Clock from './components/Clock';
 import UseContextSample from './components/UseContextSample'
 import ImageUploader from './components/UseRefSample';
+import UseImperativeHandle from './components/UseImperativeHandle';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -34,6 +35,7 @@ root.render(
     <Clock/>
     <UseContextSample/>
     <ImageUploader/>
+    <UseImperativeHandle/>
   </div>
 );
 
