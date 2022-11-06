@@ -14,6 +14,7 @@ import CallbackButton from './components/UseCallbackSample'
 import UseMemoSample from './components/UseMemoSample';
 import Clock from './components/Clock';
 import UseContextSample from './components/UseContextSample'
+import ImageUploader from './components/UseRefSample';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -32,6 +33,7 @@ root.render(
     <UseMemoSample/>
     <Clock/>
     <UseContextSample/>
+    <ImageUploader/>
   </div>
 );
 
